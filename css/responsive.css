@@ -1,0 +1,351 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 20px;
+    }
+    .text-bg span {
+        font-size: 100%;
+    }
+    .laptop_box {
+        margin-right: 0px;
+    }
+    .carousel-caption {
+     background-color: #11111135;
+        border: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin: 40px;
+        padding: 40px;
+        position: inherit;
+        box-shadow: 0 4px 10px #00000000;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 11px;
+    }
+    .text-bg h1 {
+        font-size: 120%;
+        line-height: 40%;
+        padding-bottom: 21px;
+    }
+    .text-bg span {
+        font-size: 120%;
+        line-height: 10%;
+    }
+    .text-bg a {
+        font-size: 10px;
+        max-width: 145px;
+    }
+    .text-bg p {
+        font-size: 10px;
+        line-height: 21px;
+   }
+
+    .laptop .titlepage h2 {
+        font-size: 30px;
+    }
+    .laptop_box {
+        margin-right: 0px;
+    }
+    .carousel-caption {
+     background-color: #11111135;
+        border: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin: 40px;
+        padding: 40px;
+        position: inherit;
+        box-shadow: 0 4px 10px #00000000;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 9px;
+    }
+    .banner_main {
+        min-height: 705px;
+    }
+    .text-bg h1 {
+        font-size: 80%;
+        line-height: 10%;
+        padding-bottom: 10px;
+    }
+    .text-bg span {
+        font-size: 100%;
+        line-height: 10%;
+    }
+    .text-bg a {
+        font-size: 12px;
+        max-width: 178px;
+        padding: 9px 0px;
+    }
+    .text-bg p {
+        font-size: 12px;
+        line-height: 21px;
+   }
+
+    .d_none {
+        display: none;
+    }
+    .laptop_box {
+        margin-right: 0px;
+    }
+    .box_text p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .laptop .titlepage p {
+        font-size: 12px;
+        line-height: 36px;
+    }
+    .laptop .titlepage h2 {
+        font-size: 30px;
+        line-height: 66px;
+    }
+    .about_us li {
+        margin-bottom: 30px;
+    }
+    .carousel-caption {
+     background-color: #11111135;
+        border: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin: 40px;
+        padding: 40px;
+        position: inherit;
+        box-shadow: 0 4px 10px #00000000;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        width: 100%;
+        padding: 30px 30px;
+        background: transparent;
+        position: absolute;
+        z-index: 999;
+        margin-top: -44px;
+   }
+    .carousel-caption {
+     background-color: #11111135;
+        border: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 0px;
+        position: inherit;
+        box-shadow: 0 4px 10px #00000000;
+        margin-bottom: -10px;
+   }
+    .text-bg h1 {
+        font-size: 90%;
+        line-height: 30%;
+        padding-bottom: 25px;
+    }
+    #banner1 .carousel-inner {
+        padding-right: 0;
+    }
+    .text_img {
+        margin-right: 0px;
+    }
+    #banner1 .carousel-indicators {
+        bottom: -80px;
+    }
+    .text-bg span {
+        font-size: 200%;
+        line-height: 30%;
+    }
+    .text-bg a {
+        font-size: 12px;
+        margin-bottom: 0px;
+        max-width: 202px;
+    }
+    .text-bg p {
+        font-size: 12px;
+        line-height: 21px;
+   }
+    .box_text {
+        margin-bottom: 30px;
+    }
+    .bottom_form h3,
+    .footer h3 {
+        margin-top: 30px;
+    }
+    .laptop_box {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .main_form {
+        margin: 0;
+    }
+    ul.location_icon li {
+        font-size: 17px;
+        padding-left: 13px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 12px;
+    }
+    .navigation .navbar-collapse {
+        background: #f08b08c0;
+        padding: 20px;
+        margin-top: 64px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+        border-radius: 10px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .carousel-caption {
+             background-color: #11111135;
+        border: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px;
+        padding-top: 30px;
+        position: inherit;
+        box-shadow: 0 4px 10px #00000000;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    #banner1 .carousel-inner {
+        padding-right: 0;
+    }
+    .text_img {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    #banner1 .carousel-indicators {
+        bottom: -40px;
+    }
+    .text-bg h1 {
+        font-size: 90%;
+        line-height: 10%;
+        padding-bottom: 10px;
+    }
+    .text-bg span {
+        font-size: 100%;
+        line-height: 10%;
+    }
+
+    .text-bg p {
+        font-size: 10px;
+        line-height: 21px;
+   }
+
+    .text-bg a {
+        font-size: 10px;
+        max-width: 100px;
+        padding: 10px 0px;
+    }
+    .box_text {
+        margin-bottom: 30px;
+    }
+    .laptop .titlepage p {
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .laptop_box {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .titlepage h2 {
+        font-size: 30px;
+    }
+    .main_form {
+        margin: 0px;
+        padding: 70px 30px;
+    }
+    .footer h3,
+    .bottom_form h3 {
+        margin-top: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -96px;
+    }
+    .navigation .navbar-collapse {
+        background: #242424;
+        padding: 20px;
+        margin-top: 67px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+        border-radius: 10px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
